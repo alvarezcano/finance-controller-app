@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    /*background-image: url(assets/img/portal.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-color: #31201f;
+    background-image: linear-gradient(19deg, #31201f 0%, #524a75 100%);*/
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }

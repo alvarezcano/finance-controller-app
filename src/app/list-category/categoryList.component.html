@@ -1,0 +1,31 @@
+<h3>Lista de categorias</h3>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Etiqueta</th>
+      <th scope="col">Descripción</th>
+      <th scope="col">Tipo</th>
+      <th scope="col">Sub Tipo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+    *ngFor="let categoria of categorias; let i = index"
+    >
+    <td>{{ categoria.etiqueta }}</td>
+    <td>{{ categoria.desc }}</td>
+    <td>{{ categoria.tipo }}</td>
+    <td>{{ categoria.subTipo }}</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
