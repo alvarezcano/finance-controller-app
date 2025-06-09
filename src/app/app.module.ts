@@ -8,7 +8,7 @@ import { ListComponent } from './heroes/list/list.component';
 import { CategoryListComponent } from './list-category/categoryList.component';
 
 
-import { environment } from "../environments/environment";
+import { environment } from "../../environment";
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
 import { AddCategoryComponent } from './add-category/add-category.component';
